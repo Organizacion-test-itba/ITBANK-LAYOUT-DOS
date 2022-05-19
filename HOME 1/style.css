@@ -1,0 +1,128 @@
+*{
+    font-family:  'Laila', sans-serif;
+}
+
+.container{
+    background-color: rgba(246, 238, 238, 1);
+    margin: 0 auto;
+    width: 287px;
+    height: 454px;
+}
+header{
+    height: 145px;
+    width: 287px;
+    background-color: rgba(142, 201, 255, 1);
+    border-radius: 0 0 10px 10px ;
+}
+
+.logo{
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    width:118px ;
+    height:22px ;
+}
+.svg-logo{ /* de haber problemas con la imagen fijarse en los porcentajes*/
+    padding-top: 29px; /*por alguna razón no pude posicionar el div contenedor del la imagen, pero si ubicar el img correctamente*/
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+}
+
+.btns-header{
+    border-radius: 3px;
+    margin-top:38px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 246px;
+    height: 55px;
+    background-color: rgba(94, 138, 204, 1);
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn-1{
+    font-size: 15px;
+    color: white;
+    font-family: 'Laila', sans-serif;
+    width: 102px;
+    height: 38px;
+    border-radius: 4px;
+    background-color:rgba(119, 173, 223, 1);
+    outline:none;/*no puedo quitar el recuadro negro del button! */
+}
+.btn-2{
+    font-size: 15px;
+    color: white;
+   
+    width: 102px;
+    height: 38px;
+    border-radius: 4px;
+    background-color:transparent;
+    outline:none;/*no puedo quitar el recuadro negro del button! */
+}
+
+.cuenta-info{
+    width: 259px;
+    height: 72px;
+    background-color: white;
+    margin-top: 12px ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+.num-caja{
+    width: 110px;
+    height: 20px;
+    border: solid black 1px;
+    border-radius: 12px;
+    margin-top:11px;
+    margin-left:15px ;
+}
+.num-caja span{
+    font-size: 10px;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.div-funciones{
+    width: 259px;
+    height: 106px;
+    background-color: white;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    font-size: 10px;
+}
+.funciones-display{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+
+.mrgn{ /*por alguna razon los margin-top no me están funcionando*/
+    margin-top: 25px;
+}
+.card-foot{
+    width: 121px;
+    height: 78px;
+    border-radius: 4px;
+    background-color: white;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.display-foot{
+    display: flex;
+    margin: 0 auto;
+}

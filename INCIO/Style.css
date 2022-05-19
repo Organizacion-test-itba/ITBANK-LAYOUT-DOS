@@ -1,0 +1,22 @@
+
+
+.letraiTitulo{
+  background-color: rgb(155, 190, 229);
+}
+
+/*.foot{
+  padding-top: 160px;
+}*/
+
+body{
+  background-image: linear-gradient(rgb(38, 38, 199), rgb(71, 71, 165))
+}
+
+.fondito{
+  background-color: rgb(168, 193, 214);
+  background-image: black
+  
+}
+.centrado{
+  background-color: rgb(202, 206, 206);
+}
