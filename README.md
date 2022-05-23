@@ -12,3 +12,8 @@ Para la primer entrega del proyecto comenzamos a pensar en el cliente y cuales e
 Luego, continuamos con el diseño de algunos prototipos en Figma
 
 <img src="assets/img/gastos itbank-mobile.jpg">
+<img src="assets/img/login itbank-mobile.jpg">
+<img src="assets/img/tu banco itbank_mobile.jpg">
+<img src="assets/img/tu billetera itbank-mobile.jpg">
+<img src="assets/img/log in itbank-desktop.jpg">
+<img src="assets/img/sign up itbank-desktop.jpg">
