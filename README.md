@@ -9,7 +9,6 @@ Para la primer entrega del proyecto comenzamos a pensar en el cliente y cuales e
 3. Optimizacion del mecanismo de trasnferencia
 4. Flexibilidad de tramites (lograr hacer tramites de manera online)
 
-Luego, continuamos con el diseño de algunos prototipos en Figma, ...... *agregar*
+Luego, continuamos con el diseño de algunos prototipos en Figma
 
-*agregar imagenes*
-
+<img src="assets/img/gastos itbank-mobile.jpg">
