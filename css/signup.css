@@ -91,6 +91,9 @@ header svg {
 	font-family: 'Inter', sans-serif;
 	margin: 20px;
 }
+.area form{
+	height: 400px;
+}
 
 .input{
 	width: 300px;
@@ -192,6 +195,7 @@ footer {
 	color: white;
 	text-align: center;
 	font-size: 15px;
+	margin-bottom: 0px;
 }
 footer a {
 	color: white;
