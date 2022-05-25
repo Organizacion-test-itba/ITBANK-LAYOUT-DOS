@@ -19,6 +19,15 @@
 			href="https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:wght@500&family=Laila&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap" rel="stylesheet"> <!--font-family: 'IBM Plex Sans', sans-serif;-->
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> <!--font-family: 'Inter', sans-serif;-->
+		
 		<link rel="stylesheet" href="../../css/signup.css" />
 	</head>
 	<body>
@@ -109,57 +118,70 @@
 			</div>
 		</header>
 		<div class="container-form">
-			<span class="help"><a href="#">ayuda</a></span>
-			<div class="txt-registrate"><span>Registrate</span></div>
+			<span class="help"><a href="#">Ayuda</a></span>
+			<div class="txt-registrate"><span>REGISTRATE</span></div>
 
 			<div class="container-form-dos">
 				<div class="area">
 					<form action="formulario#">
 						<label for="dni">Tipo de documento</label>
 
-						<select name="dni" id="dni">
-							<option selected>Dni</option>
-							<option value="">Libreta de enrolamiento</option>
-							<option value="">blabla</option>
-						</select>
+						
 						<br />
 						<br />
 
 						<label for="num-dni">Número de documento</label>
-						<input type="text" id="num-dni" placeholder="12 345 678" />
+						
 						<br />
 						<br />
 						<label for="nom-us">Nuevo Usuario</label>
-						<input type="text" id="nom-us" name="nombre-usuario" />
+						
 						<br />
 						<br />
 						<label for="mail">E-mail</label>
-						<input type="text" id="mail" name="e-mail" />
+						
 						<br />
 						<br />
 						<label for="confirme-m">Confirme E-mail</label>
-						<input type="text" id="confirme-m" name="confirmacion-email" />
+						
 						<br />
 						<br />
 						<label for="pass">Contraseña</label>
-						<input type="password" id="pass" name="password" />
+						
 						<br />
 						<br />
 						<label for="confirm-pass">Confirme su contraseña</label>
-						<input
-							type="password"
-							id="confirm-pass"
-							name="confirmacion-password"
-						/>
+						
+						<div class="input">
+							<select name="dni" id="dni">
+								<option selected>Dni</option>
+								<option value="">Libreta de enrolamiento</option>
+								<option value="">blabla</option>
+							</select>
+								
+							<input type="text" id="num-dni" placeholder="12 345 678" />
+							
+							<input type="text" id="nom-us" name="nombre-usuario" />
+
+							<input type="text" id="mail" name="e-mail" />
+
+							<input type="text" id="confirm-m" name="confirmacion-email" />
+
+							<input type="password" id="pass" name="password" />
+
+							<input type="password" id="confirm-pass" name="confirmacion-password"/>
+						</div>
 						<br />
 						<br />
-						<input type="submit" />
+						<div class="check">
+							<div class="cuadrado-check"></div>
+							<p>No soy un robot</p>
+						</div>
+						<div class="botones">
+							<input type="submit" />
 						<button href="">Volver</button>
+						</div>
 					</form>
-				</div>
-				<div class="check">
-					<div class="cuadrado-check"></div>
-					<p>No soy un robot</p>
 				</div>
 			</div>
 		</div>
