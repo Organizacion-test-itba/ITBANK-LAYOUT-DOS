@@ -25,7 +25,7 @@ function traerPreciosDolar() {
           </article>
           <article class="dolar__precio--articulo">
             <h4>Venta</h4>
-            <h2>${precio.casa.venta}</h2>
+            <h2>$${precio.casa.venta}</h2>
           </article>
         </section>
         <article class="dolar__precio--datos">
