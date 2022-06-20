@@ -2,6 +2,9 @@ const URLDOLAR = "https://www.dolarsi.com/api/api.php?type=valoresprincipales";
 const tablaPrecios = document.querySelector("#tablaPrecioDolares");
 const fecha = new Date().toLocaleDateString();
 
+
+
+
 function traerPreciosDolar() {
 	fetch(URLDOLAR)
 		.then((res) => res.json())
@@ -15,6 +18,7 @@ function traerPreciosDolar() {
 						precio.casa.variacion
 				)
 				.forEach((precio) => {
+          
 					tablaPrecios.innerHTML += `
         <section class="cuenta-info">      
         <h1 class="tipo__dolar">${precio.casa.nombre}</h1>
@@ -29,7 +33,7 @@ function traerPreciosDolar() {
           </article>
         </section>
         <article class="dolar__precio--datos">
-          <h4 class="dolar__precio--dato">VARIACION ${precio.casa.variacion}%</h4>
+          <h4 class="dolar__precio--dato">  VARIACION ${precio.casa.variacion}%</h4>
         <h5 class="dolar__precio--dato">ACTUALIZADO: ${fecha}</h5>
         </article>
       </section>

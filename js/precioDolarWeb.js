@@ -20,6 +20,15 @@ function liqui(nombre) {
         return nombre;
     }
 }
+
+function setImgVariacion(dato){
+    
+    if(dato.indexOf("-") < 0 ){
+      return '<div class="cono-verde"></div>'
+    }else{
+      return '<div class="cono-rojo"></div>'
+  }
+  }
 function traerPreciosDolar() {
     fetch(apiDolar)
         .then((res) => res.json())
@@ -30,9 +39,10 @@ function traerPreciosDolar() {
                 precio.casa.venta != 0 &&
                 precio.casa.variacion)
 
-            console.log(res.forEach(element => console.log(typeof(element.casa.variacion))));
-            res.forEach(element =>
-
+            console.log(res.forEach(element => console.log(parseFloat(element.casa.variacion))));
+            res.forEach(element => 
+                
+                 
                 tablaDolar.innerHTML += `
                 <div class="col fw-bold p-0 m-1">
                     <div class="p-1 "> ${liqui(element.casa.nombre)}</div>
@@ -52,10 +62,10 @@ function traerPreciosDolar() {
                        $${compra(element.casa.venta)}
                     </div>
                 </div>
-                <div style="font-size:15px" class=""> Variación ${element.casa.variacion}</div>
+                <div style="font-size:15px" class=""> ${setImgVariacion(element.casa.variacion)} Variación ${element.casa.variacion} </div>
                 <div style="font-size:10px" class="" > Actualización ${fecha}</div>
             </div>
-                ` );
+                ` ,);
         })
 }
 
